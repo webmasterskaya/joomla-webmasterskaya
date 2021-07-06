@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_WEBMASTERSKAYA</name>
+	<author>Artem Vasilev - Webmasterskaya</author>
+	<authorEmail>dev@webmasterskaya.xyz</authorEmail>
+	<authorUrl>https://webmasterskaya.xyz</authorUrl>
+	<creationDate>01.07.2021</creationDate>
+	<copyright>Copyright (c) 2018 - 2021 Webmasterskaya. All rights reserved.</copyright>
+	<license>MIT, see LICENSE.txt</license>
+	<version>__DEPLOYMENT_VERSION__</version>
+	<description>PLG_SYSTEM_WEBMASTERSKAYA_DESCRIPTION</description>
+
+	<scriptfile>script.php</scriptfile>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_webmasterskaya.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_webmasterskaya.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_webmasterskaya.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_webmasterskaya.sys.ini</language>
+	</languages>
+
+	<files>
+		<filename plugin="webmasterskaya">webmasterskaya.php</filename>
+	</files>
+
+	<updateservers>
+		<server type="extension" priority="1" name="joomla-webmasterskaya">
+			https://webmasterskaya.xyz/updates?element=joomla-webmasterskaya
+		</server>
+	</updateservers>
+
+</extension>
