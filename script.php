@@ -1,7 +1,7 @@
 <?php
 /**
  * @package    System - Webmasterskaya
- * @version    __DEPLOY_VERSION__
+ * @version    1.0.0
  * @author     Artem Vasilev - webmasterskaya.xyz
  * @copyright  Copyright (c) 2018 - 2021 Webmasterskaya. All rights reserved.
  * @license    MIT, see LICENSE.txt
@@ -23,7 +23,7 @@ class plgSystemWebmasterskayaInstallerScript
 	 *
 	 * @var  string
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.0.0
 	 */
 	protected $minimumPhp = '7.0';
 
@@ -32,7 +32,7 @@ class plgSystemWebmasterskayaInstallerScript
 	 *
 	 * @var  string
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.0.0
 	 */
 	protected $minimumJoomla = '3.9.0';
 
@@ -46,7 +46,7 @@ class plgSystemWebmasterskayaInstallerScript
 	 *
 	 * @return  boolean True on success, false on failure.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.0.0
 	 */
 	function preflight($type, $parent)
 	{
@@ -68,7 +68,7 @@ class plgSystemWebmasterskayaInstallerScript
 	 *
 	 * @return  boolean True on success, false on failure.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.0.0
 	 */
 	protected function checkCompatible($prefix = null)
 	{
@@ -126,7 +126,7 @@ class plgSystemWebmasterskayaInstallerScript
 	 *
 	 * @return  boolean True on success, false on failure.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.0.0
 	 */
 	function postflight($type, $parent)
 	{
@@ -150,7 +150,7 @@ class plgSystemWebmasterskayaInstallerScript
 	 *
 	 * @param   InstallerAdapter  $parent  Parent object calling object.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.0.0
 	 */
 	protected function enablePlugin($parent)
 	{

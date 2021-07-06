@@ -7,7 +7,7 @@
 	<creationDate>01.07.2021</creationDate>
 	<copyright>Copyright (c) 2018 - 2021 Webmasterskaya. All rights reserved.</copyright>
 	<license>MIT, see LICENSE.txt</license>
-	<version>__DEPLOYMENT_VERSION__</version>
+	<version>1.0.0</version>
 	<description>PLG_SYSTEM_WEBMASTERSKAYA_DESCRIPTION</description>
 
 	<scriptfile>script.php</scriptfile>
